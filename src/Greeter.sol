@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-import { ERC20 } from "solmate/tokens/ERC20.sol";
+// import { ERC20 } from "solmate/tokens/ERC20.sol";
+import { IERC20 } from "openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
 
 /// @title Greeter
 contract Greeter {
